@@ -5,15 +5,16 @@
 2. https://towardsdatascience.com/how-to-build-a-movie-recommendation-system-67e321339109
 3. https://github.com/RamyaVidiyala/MovieRecommenderSystem
 
-### Questions
-1.which is the common genre?
-2.which genre has the most score?
-3.which director/writer/star has the most score?
-4.which is the most common rating?
-5.which rating has the most score?
-6.which is the most common genre in each year?
+### EDA Questions
+
+1. which is the common genre?
+2. which genre has the most score?
+3. which director/writer/star has the most score?
+4. which is the most common rating?
+5. which rating has the most score?
+6. which is the most common genre in each year?
 
 ### Tasks
-1.correlation plot
-2.create ppt(kiran)
-3.eda
+
+1. correlation plot
+2. create ppt(kiran)
