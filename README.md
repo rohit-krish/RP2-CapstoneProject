@@ -11,6 +11,10 @@
 4. https://youtu.be/e9U0QAFbfLI?si=sBTiMA8dSWtHzQNB (StatQuest)
 5. https://youtu.be/m_CooIRM3UI?si=kVCnk28eX8RnzzJk (CodeBasics)
 
+#### NLP techniques for converting textual data into numerical representations
+
+6. https://youtube.com/playlist?list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX&si=wVRZ2yvwGwQwQgNs (Watch videos 13, 14, 15, 17 & 18)
+
 ### EDA Questions
 
 1. which is the common genre?
