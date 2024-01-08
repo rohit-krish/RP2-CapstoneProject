@@ -1,5 +1,12 @@
 ## iDataLytics RP2 Capstone Project: Movie Recommendation
 
+### To run the current website
+
+```sh
+cd app         # get into the 'app' directory
+python main.py # execute
+```
+
 ### References
 
 1. https://github.com/yukti99/Movie-Recommendation-Flask-App
@@ -23,11 +30,3 @@
 4. which is the most common rating?
 5. which rating has the most score?
 6. which is the most common genre in each year?
-
-
-### To run the current website
-
-```sh
-cd app         # get into the 'app' directory
-python main.py # execute
-```
