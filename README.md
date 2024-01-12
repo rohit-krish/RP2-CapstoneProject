@@ -1,5 +1,7 @@
 ## iDataLytics RP2 Capstone Project: Movie Recommendation
 
+<img src="./others/preview.png" alt="preview of the webapp">
+
 ### To run the current website
 
 ```sh
