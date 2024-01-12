@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #output {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Movie Recommendation System</h1>
+
+    <label for="movie">Enter a Movie:</label>
+    
+    <input type="text" id="genre">
+
+
+
+    <button onclick="recommend()">Get Recommendations</button>
+
+    <div id="output"></div>
+
+    <script>
+        function recommend() {
+            var selectedGenre = document.getElementById("genre").value;
+
+            // In a real scenario, you would fetch recommendations from a server or database.
+            // For simplicity, we'll use a basic hardcoded list here.
+            var recommendations = getHardcodedRecommendations(selectedGenre);
+
+            displayRecommendations(recommendations);
+        }
+
+        function getHardcodedRecommendations(genre) {
+            // Hardcoded recommendations for each genre
+            var recommendations = {
+                action: ["The Dark Knight", "Die Hard", "Mad Max: Fury Road"],
+                comedy: ["Dumb and Dumber", "Anchorman", "Superbad"],
+                drama: ["The Shawshank Redemption", "Forrest Gump", "The Godfather"],
+                "sci-fi": ["Blade Runner", "Interstellar", "The Matrix"]
+            };
+
+            return recommendations[genre] || [];
+        }
+
+        function displayRecommendations(recommendations) {
+            var outputDiv = document.getElementById("output");
+            outputDiv.innerHTML = "";
+
+            if (recommendations.length === 0) {
+                outputDiv.innerHTML = "No recommendations found for this genre.";
+            } else {
+                var ul = document.createElement("ul");
+                recommendations.forEach(function (movie) {
+                    var li = document.createElement("li");
+                    li.textContent = movie;
+                    ul.appendChild(li);
+                });
+                outputDiv.appendChild(ul);
+            }
+        }
+    </script>
+</body>
+</html>
