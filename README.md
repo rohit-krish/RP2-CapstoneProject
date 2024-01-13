@@ -9,6 +9,8 @@ cd app         # get into the 'app' directory
 python main.py # execute
 ```
 
+<a href="https://www.figma.com/file/2LVkb63gNvF4kE50opUIR9/RP2-Project-FlickFlow?type=whiteboard&node-id=0-1&t=br78YD8Gmyca6Drv-0">Project FigJam Board</a>
+
 ### References
 
 1. https://github.com/yukti99/Movie-Recommendation-Flask-App
@@ -32,3 +34,7 @@ python main.py # execute
 4. which is the most common rating?
 5. which rating has the most score?
 6. which is the most common genre in each year?
+
+<br>
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
